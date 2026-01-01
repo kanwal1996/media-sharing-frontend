@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Creator View</title>
+  <meta charset="UTF-8" />
+  <title>Creator Upload</title>
 </head>
 <body>
-  <h1>Upload Photo</h1>
+  <h1>⬆️ Upload Photo</h1>
 
-  <input type="file" />
-  <input type="text" placeholder="Title" />
-  <input type="text" placeholder="Caption" />
-  <button>Upload</button>
+  <input type="file" id="photoInput" />
+  <br><br>
+  <button onclick="uploadPhoto()">Upload</button>
+
+  <p id="status"></p>
 
   <script src="app.js"></script>
 </body>
 </html>
+
