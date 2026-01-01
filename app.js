@@ -1,10 +1,8 @@
 console.log("Frontend loaded");
-const API_URL = "https://your-backend.azurewebsites.net/api";
 
-fetch(`${API_URL}/uploadPhoto`, {
-  method: 'POST',
-  headers: {
-    'x-user-role': 'creator'
-  },
+// Upload photo (Creator)
+fetch("https://YOUR_FUNCTION_URL/api/upload", {
+  method: "POST",
   body: formData
 });
+
