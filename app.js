@@ -1,7 +1,7 @@
 console.log("Frontend loaded");
 
 // Upload photo (Creator)
-fetch("https://YOUR_FUNCTION_URL/api/upload", {
+fetch("https://media-sharing-backend.azurewebsites.net/api/upload", {
   method: "POST",
   body: formData
 });
