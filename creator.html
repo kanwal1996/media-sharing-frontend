@@ -4,14 +4,17 @@
   <title>Upload Photo</title>
 </head>
 <body>
-  <h1>Upload Photo</h1>
 
-  <a href="index.html">Back to Gallery</a>
-  <br><br>
+<h2>Upload Photo</h2>
 
-  <input type="file" id="photo" />
-  <button onclick="uploadPhoto()">Upload</button>
+<input type="file" id="image"><br><br>
+<input type="text" id="title" placeholder="Title"><br><br>
+<input type="text" id="caption" placeholder="Caption"><br><br>
 
-  <script src="app.js"></script>
+<button onclick="uploadPhoto()">Upload</button>
+<br><br>
+<button onclick="goBack()">Back to Gallery</button>
+
+<script src="app.js"></script>
 </body>
 </html>
