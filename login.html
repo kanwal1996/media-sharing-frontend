@@ -1,24 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
   <title>Login</title>
 </head>
 <body>
-  <h1>Login</h1>
 
-  <button onclick="loginAs('creator')">Login as Creator</button>
-  <button onclick="loginAs('consumer')">Login as Consumer</button>
+<h2>Login</h2>
 
-  <script>
-    function loginAs(role) {
-      localStorage.setItem("role", role);
-      if (role === "creator") {
-        window.location.href = "creator.html";
-      } else {
-        window.location.href = "index.html";
-      }
-    }
-  </script>
+<button onclick="loginCreator()">Login as Creator</button>
+<button onclick="loginConsumer()">Login as Consumer</button>
+
+<script src="app.js"></script>
 </body>
 </html>
